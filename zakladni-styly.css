@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	position: relative;
+}
+
+main {
+	padding: 1em;
+	max-width: 40rem;
+	margin-inline: auto;
+}
+
+code {
+	display: block;
+	background-color: #272822;
+	color: #ffffff;
+	padding: 0.7em;
+	border-radius: 0.25em;
+}
+
+code:has(+ code) {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+code + code {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+blockquote {
+	background-color: #ebebeb;
+	border-radius: 1em;
+	margin-inline: 0;
+	padding: 3em 4em;
+}
+
+.nahoru__obal {
+	position: absolute;
+	padding-top: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	pointer-events: none;
+}
+
+.nahoru {
+	position: sticky;
+	bottom: 0;
+	width: 4em;
+	height: 4em;
+	display: inline-block;
+	background-color: #ffaaff;
+	pointer-events: auto;
+}
