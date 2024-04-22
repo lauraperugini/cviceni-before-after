@@ -18,7 +18,7 @@ Otevři si soubor `moje-styly.css` a doplň ho podle následujících instrukcí
 
 1. ### Citát
 
-   Doplň do prvku `blockquote` ozdobné uvozovku `„` do levého dolního rohu a `“` pravého horního.
+   Doplň do prvku `blockquote` ozdobné uvozovku `„` do levého dolního rohu a `“` do pravého horního.
 
    ![](zadani/citat.png)
 
