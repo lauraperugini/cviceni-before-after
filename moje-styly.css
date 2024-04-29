@@ -41,3 +41,32 @@ blockquote::after{
     top: 1px;
 	right: 3px;
 }
+
+/**/
+
+.nahoru {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nahoru::before,
+.nahoru::after {
+    content: '';
+    background-color: #000000;
+	margin-top: -10px;
+    height: 5px;
+	width: 35%;
+}
+
+.nahoru::before {
+	transform: rotate(-45deg) translateX(3.2px);
+	transform-origin: 100% 50%;
+}
+
+.nahoru::after {
+	transform: rotate(45deg);
+	transform: rotate(45deg) translateX(-3.2px);
+    transform-origin: 0 50%;
+}
+
